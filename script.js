@@ -1,5 +1,4 @@
 
-function changeColor() {
-    let H1 = document.getElementById("H1");
-    H1.style.color = "#add8e6";
-}
+let H1 = document.querySelector("h1");
+
+let changeColor = () => H1.classList.toggle("changeColor");
